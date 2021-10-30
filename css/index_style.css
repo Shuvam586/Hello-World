@@ -98,3 +98,33 @@ footer{
     background-color: #999999;
     text-align: center;
 }
+
+@media(max-width: 500px){
+    #branding{
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-name{
+        text-align: center;
+    }
+
+    .list-name{
+        width: 9%;
+        padding-bottom: 15px;
+    }
+
+    #boxes .box{
+        width: 50%;
+        padding-left: 100px;
+    }
+    
+    #boxes .box img{
+        width: 125px; 
+        border-radius: 5px  
+    }
+
+    body{
+        font-size: 12px;
+    }
+}
