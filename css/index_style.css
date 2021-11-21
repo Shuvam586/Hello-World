@@ -52,12 +52,6 @@ header nav{
     margin-top: 10px;
 }
 
-
-header a:hover{
-    color: #242424;
-    font-weight: bold;
-}
-
 #showcase{
     min-height: 350px;
     background-color: white;
