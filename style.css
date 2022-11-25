@@ -21,6 +21,16 @@
     scrollbar-width: none;
 }
 
+/* text selection colors */
+::-moz-selection { /* Code for Firefox */
+    color: var(--one);
+    background: var(--three);
+}
+::selection {
+    color: var(--one);
+    background: var(--three);
+}
+
 a {
     text-decoration: none;
     color: inherit;
