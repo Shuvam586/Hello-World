@@ -3,7 +3,7 @@ var hours = date.getHours();
 var r = document.querySelector(':root');
 var newformat = hours >= 12 ? 'PM' : 'AM'; 
 
-if (newformat == 'AM') {
+if (newformat == 'PM') {
     changeTheme();
 }
 
